@@ -1,0 +1,32 @@
+.product {
+    display: flex;
+  }
+  
+  .product .col-lg-2 {
+    flex-basis: 33.33%;
+  }
+  
+  .product .col-lg-10 {
+    flex-basis: 66.66%;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-list .product-button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .product-cards .row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  
+  .product-cards .col-md-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
